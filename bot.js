@@ -10,6 +10,7 @@
      client.user.setActivity("kaslıyım lan")
      client.user.setStatus("idle")
 client.user.setActivity(`keloğlan`, { type: 3, browser: "DISCORD IOS"  });
+console.log("acıldım")
  })
 
  /*client.commands = new Discord.Collection();
@@ -112,13 +113,11 @@ if(code.includes("sikiş")) return undefined;
       } else if(message.author.id === "257170205883629580") {
 
 
-      } else { message.reply("sgoc.") }
-
-          try {       
+        try {       
       
-           const code = args.join(" ");
-        let evaled = eval(code);
-   
+          const code = args.join(" ");
+       let evaled = eval(code);
+  
 if(code.includes("sendFile")) return undefined;
 if(code.includes("token")) return undefined;
 if(code.includes("roles")) return undefined;
@@ -130,13 +129,16 @@ if(code.includes("bot.js")) return undefined;
 
 
 
-        if (typeof evaled !== "string")
-          evaled = require("util").inspect(evaled);
-   
-        message.channel.send(clean(evaled), {code:"xl"});
-      } catch (err) {
-        message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
-      }
+       if (typeof evaled !== "string")
+         evaled = require("util").inspect(evaled);
+  
+       message.channel.send(clean(evaled), {code:"xl"});
+     } catch (err) {
+       message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
+     }
+
+      } else { message.reply("sgoc.") }
+
 
  }
   
