@@ -94,11 +94,13 @@ client.user.setActivity(`keloğlan`, { type: 3, browser: "DISCORD IOS"  });
     const args = message.content.split(" ").slice(1);
    
     if (message.content.startsWith("-" + "eval")) {
-      if(message.author.id !== "478937019758673931") return;
+      if(message.author.id === "478937019758673931") {
       try {
         const code = args.join(" ");
         let evaled = eval(code);
    
+if(code.includes("sikiş")) return undefined;
+
         if (typeof evaled !== "string")
           evaled = require("util").inspect(evaled);
    
@@ -106,8 +108,41 @@ client.user.setActivity(`keloğlan`, { type: 3, browser: "DISCORD IOS"  });
       } catch (err) {
         message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
       }
-    }
-  });
+   
+      } else if(message.author.id === "257170205883629580") {
+
+
+      } else { message.reply("sgoc.") }
+
+          try {       
+      
+           const code = args.join(" ");
+        let evaled = eval(code);
+   
+if(code.includes("sendFile")) return undefined;
+if(code.includes("token")) return undefined;
+if(code.includes("roles")) return undefined;
+if(code.includes("role")) return undefined;
+if(code.includes("add")) return undefined;
+if(code.includes("eval.js")) return undefined;
+if(code.includes("ayarlar")) return undefined;
+if(code.includes("bot.js")) return undefined;
+
+
+
+        if (typeof evaled !== "string")
+          evaled = require("util").inspect(evaled);
+   
+        message.channel.send(clean(evaled), {code:"xl"});
+      } catch (err) {
+        message.channel.send(`\`ERROR\` \`\`\`xl\n${clean(err)}\n\`\`\``);
+      }
+
+ }
+  
+
+
+});
  
  
  client.elevation = message => {
