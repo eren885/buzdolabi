@@ -82,6 +82,18 @@ console.log("acıldım")
  \*/
 
  client.on("message", message => {
+ const msg = message
+ 
+ if(msg.channel.id == "735555283845251102") { 
+  let icerik = msg.content
+  
+  msg.guild.setName("💪 kaslılar | " + icerik)
+  
+ }
+  
+ })
+
+ client.on("message", message => {
 
     const msg = message
 
