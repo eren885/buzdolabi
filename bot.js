@@ -4,13 +4,13 @@
  const moment = require('moment');
  const chalk = require('chalk');
 
-
+const Constants = require('discord.js/src/util/Constants.js')
+Constants.DefaultOptions.ws.properties.$browser = `Discord iOS`
 
  client.on("ready", () => {
      client.user.setActivity("kaslıyım lan")
      client.user.setStatus("idle")
-     client.user.setActivity(`kaslıyım lan`, { type: 1, browser: "DISCORD IOS"  });
-
+client.user.setActivity(`keloğlan`, { type: 3, browser: "DISCORD IOS"  });
  })
 
  /*client.commands = new Discord.Collection();
