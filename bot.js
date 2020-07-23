@@ -4,8 +4,7 @@
  const moment = require('moment');
  const chalk = require('chalk');
 
-const Constants = require('discord.js/src/util/Constants.js')
-Constants.DefaultOptions.ws.properties.$browser = `Discord iOS`
+
 
  client.on("ready", () => {
      client.user.setActivity("kaslıyım lan")
