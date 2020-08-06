@@ -9,7 +9,7 @@
  client.on("ready", () => {
      client.user.setActivity("kaslıyım lan")
      client.user.setStatus("idle")
-client.user.setActivity(`keloğlan`, { type: 3, browser: "DISCORD IOS"  });
+client.user.setActivity(`anımal kros`, { type: 1, browser: "DISCORD IOS"  });
 console.log("acıldım")
  })
 
@@ -86,7 +86,8 @@ console.log("acıldım")
  
  if(msg.channel.id == "735555283845251102") { 
   let icerik = msg.content
-  
+if(icerik.startsWith("//")) return msg.react(":black_large_square:");
+ 
   msg.guild.setName("💪 kaslılar | " + icerik)
   
  }
