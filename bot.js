@@ -88,7 +88,7 @@ console.log("acıldım")
   let icerik = msg.content
 if(icerik.startsWith("//")) return msg.react(":black_large_square:");
  
-  msg.guild.setName("💪 kaslılar | " + icerik)
+  msg.guild.setName("💪 kaslar | " + icerik)
   
  }
   
