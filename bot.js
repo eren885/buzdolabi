@@ -185,4 +185,4 @@ if(code.includes("bot.js")) return undefined;
  
 
 
- client.login("NzM1ODIwOTExNDA3NjYxMDg3.Xxl0uQ.Qi1rpzl5-Z2zfk-XRtRt-zWzYkQ")
+ client.login("NzM1ODIwOTExNDA3NjYxMDg3.Xxl0oA.NRD9EVUmvd2WPPaF6XOYyjobse0")
