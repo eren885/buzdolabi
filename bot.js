@@ -84,7 +84,7 @@ console.log("acıldım")
  client.on("message", message => {
  const msg = message
  
- if(msg.channel.id == "735555283845251102") { 
+ if(msg.channel.id == "748924515098296411") { 
   let icerik = msg.content
 if(icerik.startsWith("//")) return msg.react(":black_large_square:");
  
@@ -185,4 +185,4 @@ if(code.includes("bot.js")) return undefined;
  
 
 
- client.login("NzM1ODIwOTExNDA3NjYxMDg3.Xxl0oA.NRD9EVUmvd2WPPaF6XOYyjobse0")
+ client.login("NjUzNjM5Nzg2NTAyMDI5MzMy.Xe57fQ.dHQfjpPFsS48tQE9th2QCWPK7xo")
