@@ -1,22 +1,22 @@
 # buzdolabi
-erenbının harıkabotu
+erenbının harıkabotu 👍👍👍👍👍👍👍👍👍👍👍👍
 
-## kurmq
-* klonla `gıt klon wqewewq`
-* modulKur`npme ınstal`
+## 📦 kurmq
+* klonla `gıt klon wqewewq 😉 
+* modulKur`npme ınstal` 🥺
 * baslatmqmqmq `nod botjs` ✅
 
-## napabılırsın
-* kahva bot kapaniyo (saka)
+## 💁 napabılırsın
+* kahva bot kapaniyo (saka) ☕
 * cokguzel bot bu kaslarbottu kaslarkapandı mnq 😭😭😭😭😭😭
-* anılmalkros apı wardıonceden
+* anılmalkros apı wardıonceden 🍃
 
-## yardımet
+## 🤔 yardımet
 * mnq bısıler yap ıste pr at nebılm
 * hata matabulursan kapa TMM?
 * oq
 
-## yapanlar
+## 👋 yapanlar
 - ggkush abı uyuyon mu abı uyan
 - erenbın
 - alef asddasdasda
