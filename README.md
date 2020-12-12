@@ -2,7 +2,7 @@
 erenbının harıkabotu 👍👍👍👍👍👍👍👍👍👍👍👍
 
 ## 📦 kurmq
-* klonla `gıt klon wqewewq 😉 
+* klonla `gıt klon wqewewq` 😉 
 * modulKur`npme ınstal` 🥺
 * baslatmqmqmq `nod botjs` ✅
 
