@@ -20,3 +20,6 @@ erenbının harıkabotu 👍👍👍👍👍👍👍👍👍👍👍👍
 - ggkush abı uyuyon mu abı uyan
 - erenbın
 - alef asddasdasda
+
+## ❤️ open source
+- Open sorce ❤️ bız yabı alef we ben
